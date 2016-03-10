@@ -6,6 +6,10 @@ h2,h3,h4 {
   color: #1E5480;
 }
 
+p {
+  color: #000000;
+}
+
 a {
   color: #054172;
 }
@@ -25,6 +29,8 @@ a:hover {
 a:visited {
   color: #BF898B;
 }
+
+/* Styles for the navigation bar */
 
 .navbar {
   background: #7f1418;
@@ -49,9 +55,22 @@ a:visited {
   color:#E09500;
   background-color: #984346}
 
-p {
-  color: #000000;
+/* Styles for the floating TOC */
+
+.tocify .list-group-item:hover, .tocify .list-group-item:focus {
+    color: #E09500;
+    background-color: #984346;
 }
+
+.tocify .list-group-item.active:hover, .tocify .list-group-item.active:focus {
+    background-color: #8B2B2F;
+}
+
+.tocify .list-group-item.active {
+    background-color: #7F1418;
+}
+
+/* Styles for header and footer */
 
 #HeaderBar
 {
