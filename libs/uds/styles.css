@@ -1,0 +1,95 @@
+h1 {
+  color: #054172;
+}
+
+h2,h3,h4 {
+  color: #1E5480;
+}
+
+a {
+  color: #054172;
+}
+
+a:active {
+  color: #054172;
+}
+
+a:link {
+  color: #054172;
+}
+
+a:hover {
+  color: #7F1418;
+}
+
+a:visited {
+  color: #BF898B;
+}
+
+.navbar {
+  background: #7f1418;
+}
+.navbar-default .navbar-brand {
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus {
+  color:#E09500;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus {
+  color: #E09500;
+  background-color: #8B2B2F}
+  
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
+  color:#E09500;
+  background-color: #984346}
+
+p {
+  color: #000000;
+}
+
+#HeaderBar
+{
+    text-align:center;
+    height: 200px;
+}
+
+#HeaderLeft
+{
+    height:200px; width: 100px /*width of image*/;
+    float: left
+}
+#HeaderRight
+{    
+    height:200px; width: 100px /*width of image*/;  
+    float: right
+}
+
+#FooterBar
+{
+    margin: auto;
+    height: 100px;
+}
+
+#FooterText
+{
+    margin: auto;
+    width: 50%;
+    text-align:center;
+}
+
+#FooterLeft
+{
+    height:100px; width: 100px /*width of image*/;
+    float: left
+}
+#FooterRight
+{    
+    height:100px; width: 100px /*width of image*/;  
+    float: right
+}
