@@ -1,5 +1,9 @@
 html_document:
   self_contained: false
   lib_dir: libs
-
-
+  theme: simplex
+  includes:
+    #in_header: header.html
+    before_body: header.html
+    after_body: footer.html
+  css: libs/uds/styles.css
