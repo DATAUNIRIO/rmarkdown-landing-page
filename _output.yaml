@@ -3,7 +3,6 @@ html_document:
   lib_dir: libs
   theme: simplex
   includes:
-    #in_header: header.html
-    before_body: header.html
-    after_body: footer.html
+    before_body: _header.html
+    after_body: _footer.html
   css: libs/uds/styles.css
