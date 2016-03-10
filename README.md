@@ -5,6 +5,8 @@ This repository illustrates one way to create a simple landing page made up of m
 Original materials were taken from <https://github.com/rstudio/rmarkdown-website> and adapted to follow CLARIN-
 D Corporate Design <http://de.clarin.eu/mwiki/index.php/CLARIN_Corporate_Design>.
 
+Learn how to adapt this example to your needs with the RMarkdown documentation <http://rmarkdown.rstudio.com/html_document_format.html>.
+
 Features of the simple website include:
 
 1. Multiple Rmd files are accessible from a global navigation bar (defined in `_navbar.html`)
@@ -15,4 +17,4 @@ Features of the simple website include:
 
 3. The site can be built using the included `Makefile`. An RStudio Project that binds building the Makefile to `Cmd+Shift+B` is also included.
 
-4. Folder `libs/uds/` contains corpus banner, logos (CLARIN-D, BMBF, CLARIN B Center, UdS), and CSS file overriding theme styles.
+4. Folder `libs/uds/` contains corpus banner, logos (CLARIN-D, BMBF, CLARIN B Center, UdS), and CSS file overriding theme styles `styles.css`.
