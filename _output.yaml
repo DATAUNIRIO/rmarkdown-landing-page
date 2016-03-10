@@ -2,6 +2,8 @@ html_document:
   self_contained: false
   lib_dir: libs
   theme: simplex
+  toc: true
+  toc_float: true
   includes:
     before_body: _header.html
     after_body: _footer.html
