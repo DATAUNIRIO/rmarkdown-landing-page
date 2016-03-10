@@ -1,8 +1,9 @@
-## R Markdown Website Example
+## R Markdown UdS Landing Page
 
-This repository illustrates one way to create a simple website made up of multiple R Markdown documents to be used as a corpus landing page.
+This repository illustrates one way to create a simple landing page made up of multiple R Markdown documents for resources located in the UdS CLARIN-D repository.
 
-Original materials were taken from <https://github.com/rstudio/rmarkdown-website> and adapted to follow CLARIN Corporate Design <http://de.clarin.eu/mwiki/index.php/CLARIN_Corporate_Design>.
+Original materials were taken from <https://github.com/rstudio/rmarkdown-website> and adapted to follow CLARIN-
+D Corporate Design <http://de.clarin.eu/mwiki/index.php/CLARIN_Corporate_Design>.
 
 Features of the simple website include:
 
