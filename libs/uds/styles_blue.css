@@ -1,0 +1,139 @@
+h1 {
+  color: #054172;
+}
+
+h2 {
+  color: #1E5480;
+}
+
+h3 {
+  color: #37678E;
+}
+
+h4 {
+  color: #507A9C;
+}
+
+p {
+  color: #000000;
+}
+
+a {
+  color: #82A0B8;
+}
+
+a:active {
+  color: #82A0B8;
+}
+
+a:link {
+  color: #82A0B8;
+}
+
+a:hover {
+  color: #B27274;
+}
+
+a:visited {
+  color: #1E5480;
+}
+
+/* Styles for the navigation bar */
+
+.navbar {
+  background: #054172;
+}
+.navbar-default .navbar-brand {
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus {
+  color:#E5D0D0;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus {
+  color: #FFFFFF;
+  background-color: #1E5480}
+  
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
+  color:#FFFFFF;
+  background-color: #37678E}
+
+  
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #1E5480;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #37678E;
+}
+  
+/* Styles for the floating TOC */
+
+.tocify .list-group-item:hover, .tocify .list-group-item:focus {
+    color: #FFFFFF;
+    background-color: #37678E;
+}
+
+.tocify .list-group-item.active:hover, .tocify .list-group-item.active:focus {
+    background-color: #1E5480;
+}
+
+.tocify .list-group-item.active {
+    background-color: #054172;
+}
+
+/* Styles for header and footer */
+
+#HeaderBar
+{
+    text-align:center;
+    height: 200px;
+}
+
+#HeaderLeft
+{
+    height:200px; width: 100px /*width of image*/;
+    float: left
+}
+#HeaderRight
+{    
+    height:200px; width: 100px /*width of image*/;  
+    float: right
+}
+
+#FooterBar
+{
+    margin: auto;
+    height: 100px;
+}
+
+#FooterText
+{
+    margin: auto;
+    width: 50%;
+    text-align:center;
+}
+
+#FooterLeft
+{
+    height:100px; width: 100px /*width of image*/;
+    float: left
+}
+#FooterRight
+{    
+    height:100px; width: 100px /*width of image*/;  
+    float: right
+}
