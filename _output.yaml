@@ -5,4 +5,4 @@ html_document:
   includes:
     before_body: _header.html
     after_body: _footer.html
-  css: libs/uds/styles.css
+  css: libs/uds/styles_blue.css
