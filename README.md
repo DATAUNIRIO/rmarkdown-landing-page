@@ -18,3 +18,23 @@ Features of the simple website include:
 3. The site can be built using the included `Makefile`. An RStudio Project that binds building the Makefile to `Cmd+Shift+B` is also included.
 
 4. Folder `libs/uds/` contains corpus banner, logos (CLARIN-D, BMBF, CLARIN B Center, UdS), and CSS file overriding theme styles `styles.css`.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Get started in 5 steps
+
+Open RStudio and create a new project.
+Run the following commands in RStudio to bootstrap your new project website with Project Kickstart-R:
+
+```{r}
+install.packages("blogdown")
+install.packages("hugo")
+blogdown::new_site(theme = "gcushen/hugo-academic", sample = FALSE, theme_example = FALSE)
+download.file( url = "https://github.com/sourcethemes/project-kickstart-r/archive/master.zip", destfile="project-kickstart-r.zip")
+unzip( zipfile = "project-kickstart-r.zip", junkpaths = TRUE )
+```
+
+Customise your new site and deploy it.
+Fonte:https://georgecushen.com/talk/2018/build-website-with-rmarkdown/
+      https://sourcethemes.com/academic/docs/install/#install-with-rstudio
